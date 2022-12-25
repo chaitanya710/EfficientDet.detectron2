@@ -20,7 +20,7 @@ DATASETS:
     TRAIN: ("doclaynet_train",)
     TEST: ("doclaynet_val",)
 SOLVER:
-    IMS_PER_BATCH: 16
+    IMS_PER_BATCH: 10
     BASE_LR: 0.0001  # Note that RetinaNet uses a different default learning rate
     STEPS: (60000, 80000)
     MAX_ITER: 90000
