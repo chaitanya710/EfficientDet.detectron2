@@ -32,6 +32,7 @@ from detectron2.data import (
     build_detection_test_loader,
     build_detection_train_loader,
 )
+from detectron2.data.datasets.coco import load_coco_json, register_coco_instances
 from detectron2.engine import default_argument_parser, default_setup, launch
 from detectron2.evaluation import (
 
